@@ -45,10 +45,17 @@ h2 {
     text-transform: uppercase;
 }
 h3 {
-    
+    font-size: 20px;
+    margin: 30px 0;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
 }
 h4 {
-
+    font-size: 18px;
+    margin: 30px 0;
+    color: white;
+    font-weight: 700;
 }
 p {
     font-size: 16px;
@@ -56,6 +63,16 @@ p {
     line-height: 1.5;
     margin: 8px 0;
     color: #b3b3b3;
+}
+li {
+    margin-left: 20px;
+    line-height: 1.5;
+}
+ul {
+    list-style-type: circle;
+}
+ol {
+    list-style-type:decimal;
 }
 body {
     display: flex;
@@ -500,5 +517,69 @@ body {
     .slot__box-items {
         justify-content: center;
         gap:15px;
+    }
+    .slot__box {
+        padding-top: 10px;
+    }
+}
+
+/* text  */
+.text-copy {
+    margin-top: 70px;
+}
+.text {
+    width: 100%;
+    margin-bottom: 40px;
+}
+.text__box {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 10px;
+    padding-top: 30px;
+}
+.text .buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.text-box-img {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.text-box-img img {
+    width: 60%;
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin-bottom: 30px;
+}
+
+.log {
+    border: none;
+    background-color:#ff304b;
+    color: #fff;
+    border-radius: 5px;
+    height: auto;
+    padding: 15px 70px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.log a {
+    color:white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+}
+
+@media screen and (max-width: 768px) {
+    .text__box {
+        padding-top: 10px;
     }
 }
