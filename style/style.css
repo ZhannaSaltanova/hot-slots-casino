@@ -672,4 +672,73 @@ tr:nth-child(1){
     background-color:#ff304b;
     border-radius: 5px;
  }
-.answer { }
+.answer { 
+    padding: 15px 10px;
+}
+
+/* footer  */
+footer {
+    width: 100%;
+    border-top: 1px solid white;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+.footer__box {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 10px;
+    padding-top: 10px;
+}
+footer img {
+    height: 30px;
+}
+.footer__top {
+    display: flex;
+    justify-content: flex-start;
+    padding-bottom: 20px;
+    gap:10px;
+    flex-wrap: wrap;
+}
+.footer__top a {
+    color: white;
+}
+.footer__main p {
+    margin: 15px 0;
+}
+.footer__bottom { 
+    width: 100%;
+    padding-top: 20px;
+    display: flex;
+    gap:10px;
+}
+.footer__bottom-left  { 
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.footer-img {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.footer__bottom p {
+    font-size: 19px;
+    color: white;
+    font-weight: 600;
+    margin: 10px 0;
+}
+.footer__bottom-right {
+    width: 50%;
+ }
+
+@media screen and (max-width: 768px) {
+    .footer__bottom-left {
+        width: 100%;
+    }
+    .footer__bottom-right {
+        width: 100%;
+    }
+    .footer__bottom { 
+        flex-wrap: wrap;
+    }
+}
