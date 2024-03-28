@@ -309,13 +309,16 @@ body {
     height: 96px;
     display: flex;
     justify-content: space-between;
-    padding: 0 100px;
+    padding: 30px 100px;
 }
 .banner__category::-webkit-scrollbar-thumb {
     background: #ff304b; 
 }
 .banner__category::-webkit-scrollbar {
     height: 15px; 
+}
+.banner__category-item {
+    margin-top: 10px;
 }
 .banner__category-item a{
     height: 100%;
