@@ -653,3 +653,23 @@ tr:nth-child(1){
     justify-content: space-between;
     padding: 30px 100px;
 }
+
+/* faq  */
+.faq { 
+    width: 100%;
+    margin-bottom: 40px;
+}
+.faq__box { 
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 10px;
+    padding-top: 10px;
+}
+.faq__box-items { }
+.question {
+    margin: 0;
+    padding: 15px 10px;
+    background-color:#ff304b;
+    border-radius: 5px;
+ }
+.answer { }
