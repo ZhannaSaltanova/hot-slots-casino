@@ -376,6 +376,7 @@ body {
 @media screen and (max-width: 768px){
     .banner {
         margin-top: 70px;
+        background-image: url('../img/bg-mob.webp');
     }
     .banner::after {
         height: 300px;
