@@ -41,7 +41,6 @@ h2 {
     margin: 30px 0;
     color: white;
     font-weight: 700;
-    text-align: center;
     text-transform: uppercase;
 }
 h3 {
@@ -379,7 +378,7 @@ body {
     background-color: #ff304b;
     color: #fff;
     height: 50px;
-    padding: 10px 40px;
+    padding: 10px 25px;
     border-radius: 7px;
 }
 .btn-banner a {
@@ -566,14 +565,15 @@ body {
     color: #fff;
     border-radius: 5px;
     height: auto;
-    padding: 15px 70px;
+    padding: 17px 25px;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 .log a {
     color:white;
     text-decoration: none;
-    font-size: 20px;
+    text-transform: uppercase;
+    font-size: 16px;
     font-weight: 700;
     letter-spacing: 0.2px;
 }
@@ -582,4 +582,74 @@ body {
     .text__box {
         padding-top: 10px;
     }
+}
+
+/* table  */
+
+.table {
+    max-width: 1440px;
+    margin: 20px auto;
+    padding: 10px 10px;
+}
+.table-wrapper {
+    width: 100%;
+    overflow-x: auto; 
+    scrollbar-color: #ff304b #f1f1f1;
+}
+.table-wrapper::-webkit-scrollbar-thumb {
+    background: #ff304b; 
+}
+.table-wrapper::-webkit-scrollbar {
+    height: 15px; 
+}
+.text__table h2 {
+    text-transform: uppercase;
+}
+table {
+width: 100%; 
+padding-bottom: 20px;
+border-collapse: separate;
+border-spacing: 5px 5px;
+min-width: 600px; 
+font-weight: 500;
+font-size: 14px;
+line-height: 1.5;
+}
+
+td {
+    border: none; 
+    padding: 8px; 
+    white-space: nowrap;
+    border-radius: 10px 10px 10px 10px; 
+}
+tr {
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    font-size: 14px;
+    background-color: #444040; 
+    border: none;
+}
+tr:nth-child(1){
+    font-weight: 700;
+}
+  @media (max-width: 1280px) {
+    .table-wrapper {
+      width: 100%;
+    }
+  }
+  @media (max-width: 600px) {
+    .table-wrapper {
+      width: 100%;
+    }
+  }
+  .banner__category {
+    width: 100%;
+    overflow-x: auto;
+    
+    background-color:rgba(0, 0, 0, 0.874);
+    height: 96px;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 100px;
 }
